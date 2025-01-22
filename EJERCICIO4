@@ -1,0 +1,120 @@
+using System;
+
+namespace LinkedListExample
+{
+    // Clase para los nodos de la lista enlazada
+    public class Node
+    {
+        public int Data { get; set; }
+        public Node Next { get; set; }
+
+        public Node(int data)
+        {
+            Data = data;
+            Next = null;
+        }
+    }
+
+    // Clase para la lista enlazada
+    public class LinkedList
+    {
+        private Node head;
+
+        public LinkedList()
+        {
+            head = null;
+        }
+
+        // Método para agregar un nodo al final de la lista
+        public void Add(int data)
+        {
+            Node newNode = new Node(data);
+
+            if (head == null)
+            {
+                head = newNode;
+            }
+            else
+            {
+                Node current = head;
+                while (current.Next != null)
+                {
+                    current = current.Next;
+                }
+                current.Next = newNode;
+            }
+        }
+
+        // Método para eliminar nodos fuera del rango
+        public void RemoveOutsideRange(int min, int max)
+        {
+            // Eliminar nodos al principio de la lista
+            while (head != null && (head.Data < min || head.Data > max))
+            {
+                head = head.Next;
+            }
+
+            // Si la lista está vacía después de eliminar los primeros nodos
+            if (head == null) return;
+
+            // Eliminar nodos intermedios
+            Node current = head;
+            while (current.Next != null)
+            {
+                if (current.Next.Data < min || current.Next.Data > max)
+                {
+                    current.Next = current.Next.Next;
+                }
+                else
+                {
+                    current = current.Next;
+                }
+            }
+        }
+
+        // Método para mostrar los elementos de la lista
+        public void Display()
+        {
+            Node current = head;
+            while (current != null)
+            {
+                Console.Write(current.Data + " ");
+                current = current.Next;
+            }
+            Console.WriteLine();
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            LinkedList list = new LinkedList();
+            Random random = new Random();
+
+            // Generar 50 números aleatorios y agregarlos a la lista
+            Console.WriteLine("Generando 50 números aleatorios...");
+            for (int i = 0; i < 50; i++)
+            {
+                int randomNumber = random.Next(1, 1000);
+                list.Add(randomNumber);
+            }
+
+            Console.WriteLine("\nLista original:");
+            list.Display();
+
+            // Leer el rango desde el teclado
+            Console.Write("\nIngrese el valor mínimo del rango: ");
+            int min = int.Parse(Console.ReadLine());
+            Console.Write("Ingrese el valor máximo del rango: ");
+            int max = int.Parse(Console.ReadLine());
+
+            // Eliminar nodos fuera del rango
+            list.RemoveOutsideRange(min, max);
+
+            // Mostrar la lista actualizada
+            Console.WriteLine("\nLista actualizada (valores dentro del rango):");
+            list.Display();
+        }
+    }
+}
