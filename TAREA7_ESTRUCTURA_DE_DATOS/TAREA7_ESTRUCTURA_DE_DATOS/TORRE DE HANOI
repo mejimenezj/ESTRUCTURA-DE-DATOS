@@ -1,0 +1,80 @@
+using System;
+using System.Collections.Generic;
+
+class TorresDeHanoi
+{
+    // Clase para representar una torre
+    class Torre
+    {
+        public Stack<int> Pila { get; private set; }
+        public string Nombre { get; private set; }
+
+        public Torre(string nombre)
+        {
+            Pila = new Stack<int>();
+            Nombre = nombre;
+        }
+
+        public void MoverDiscoA(Torre c)
+        {
+            int disco = Pila.Pop();
+            c.Pila.Push(disco);
+            Console.WriteLine($"Mover disco {disco} de {Nombre} a {c.Nombre}");
+        }
+    }
+
+    static void ResolverHanoi(int numDiscos, Torre A, Torre b, Torre c)
+    {
+        if (numDiscos == 1)
+        {
+            A.MoverDiscoA(c);
+        }
+        else
+        {
+            // Mueve (n-1) discos de la torre A a la torre b usando c como soporte
+            ResolverHanoi(numDiscos - 1, A, c, b);
+
+            // Mueve el disco más grande de la torre A a la torre c
+            A.MoverDiscoA(c);
+
+            // Mueve los (n-1) discos de la torre b a la torre c usando A como soporte
+            ResolverHanoi(numDiscos - 1, b, A, c);
+        }
+    }
+
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Las Torres de Hanoi.");
+
+        Console.Write("Ingrese la cantidad de discos: ");
+
+        // Validar entrada del usuario
+        int numDiscos;
+        while (!int.TryParse(Console.ReadLine(), out numDiscos) || numDiscos <= 0)
+        {
+            Console.Write("Por favor, ingrese un número válido de discos (entero positivo): ");
+        }
+
+        // Inicializa las torres
+        Torre torre1 = new Torre("A");
+        Torre torre2 = new Torre("B");
+        Torre torre3 = new Torre("C");
+
+        // Coloca los discos en la torre A
+        for (int i = numDiscos; i >= 1; i--)
+        {
+            torre1.Pila.Push(i);
+        }
+
+        // Muestra el estado inicial
+        Console.Write($"Estado inicial: Torre {torre1.Nombre} tiene {torre1.Pila.Count} discos.\n");
+        Console.WriteLine(" l l l");
+        Console.WriteLine(" A B C");
+
+        // Resuelve el problema de las Torres de Hanoi
+        ResolverHanoi(numDiscos, torre1, torre2, torre3);
+
+        // Muestra el estado final
+        Console.WriteLine($"\nEstado final: Torre {torre3.Nombre} tiene {torre3.Pila.Count} discos.");
+    }
+}

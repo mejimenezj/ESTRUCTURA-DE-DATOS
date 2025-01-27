@@ -1,0 +1,59 @@
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+               Console.WriteLine("Escriba la fórmula.");
+        string formula = Console.ReadLine();
+      
+        if (IsBalanced(formula))
+        {
+            Console.WriteLine("Fórmula balanceada.");
+        }
+        else
+        {
+            Console.WriteLine("Fórmula no balanceada.");
+        }
+    }
+
+    static bool IsBalanced(string formula)
+    {
+        // Pila para almacenar los caracteres de apertura
+        Stack<char> stack = new Stack<char>();
+
+        // Recorremos cada carácter de la fórmula
+        foreach (char c in formula)
+        {
+            // Si encontramos un carácter de apertura, lo añadimos a la pila
+            if (c == '(' || c == '[' || c == '{')
+            {
+                stack.Push(c);
+            }
+            // Si encontramos un carácter de cierre
+            else if (c == ')' || c == ']' || c == '}')
+            {
+                // Verificamos si la pila está vacía (sin apertura correspondiente)
+                if (stack.Count == 0)
+                {
+                    return false; // No está balanceado
+                }
+
+                // Extraemos el último elemento de la pila
+                char top = stack.Pop();
+
+                // Verificamos si el carácter de apertura corresponde al cierre
+                if ((c == ')' && top != '(') ||
+                    (c == ']' && top != '[') ||
+                    (c == '}' && top != '{'))
+                {
+                    return false; // No está balanceado
+                }
+            }
+        }
+
+        // Si la pila está vacía al final, la fórmula está balanceada
+        return stack.Count == 0;
+    }
+}

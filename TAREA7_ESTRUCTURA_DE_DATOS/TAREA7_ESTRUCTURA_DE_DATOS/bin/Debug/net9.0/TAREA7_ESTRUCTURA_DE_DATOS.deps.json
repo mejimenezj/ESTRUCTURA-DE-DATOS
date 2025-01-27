@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "TAREA7_ESTRUCTURA_DE_DATOS/1.0.0": {
+        "runtime": {
+          "TAREA7_ESTRUCTURA_DE_DATOS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TAREA7_ESTRUCTURA_DE_DATOS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
