@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAREA_10_EJERCICIO_ESTRUCTURA_DE_DATOSS", "TAREA_10_EJERCICIO_ESTRUCTURA_DE_DATOSS.csproj", "{0A3717EF-F5FC-01BE-60EF-BACC12C84391}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A3717EF-F5FC-01BE-60EF-BACC12C84391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A3717EF-F5FC-01BE-60EF-BACC12C84391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A3717EF-F5FC-01BE-60EF-BACC12C84391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A3717EF-F5FC-01BE-60EF-BACC12C84391}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09DEB900-0880-4D5E-853C-8FCB6E0F0C3A}
+	EndGlobalSection
+EndGlobal
