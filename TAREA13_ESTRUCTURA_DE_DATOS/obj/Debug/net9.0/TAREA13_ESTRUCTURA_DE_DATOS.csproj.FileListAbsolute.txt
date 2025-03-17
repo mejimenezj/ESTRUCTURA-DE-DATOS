@@ -1,0 +1,14 @@
+c:\Users\KariBv\OneDrive\Documentos\TRABAJOS\TAREA13_ESTRUCTURA_DE_DATOS\bin\Debug\net9.0\TAREA13_ESTRUCTURA_DE_DATOS.exe
+C:\Users\KariBv\OneDrive\Documentos\TRABAJOS\TAREA13_ESTRUCTURA_DE_DATOS\bin\Debug\net9.0\TAREA13_ESTRUCTURA_DE_DATOS.deps.json
+C:\Users\KariBv\OneDrive\Documentos\TRABAJOS\TAREA13_ESTRUCTURA_DE_DATOS\bin\Debug\net9.0\TAREA13_ESTRUCTURA_DE_DATOS.runtimeconfig.json
+c:\Users\KariBv\OneDrive\Documentos\TRABAJOS\TAREA13_ESTRUCTURA_DE_DATOS\bin\Debug\net9.0\TAREA13_ESTRUCTURA_DE_DATOS.dll
+c:\Users\KariBv\OneDrive\Documentos\TRABAJOS\TAREA13_ESTRUCTURA_DE_DATOS\bin\Debug\net9.0\TAREA13_ESTRUCTURA_DE_DATOS.pdb
+c:\Users\KariBv\OneDrive\Documentos\TRABAJOS\TAREA13_ESTRUCTURA_DE_DATOS\obj\Debug\net9.0\TAREA13_ESTRUCTURA_DE_DATOS.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\KariBv\OneDrive\Documentos\TRABAJOS\TAREA13_ESTRUCTURA_DE_DATOS\obj\Debug\net9.0\TAREA13_ESTRUCTURA_DE_DATOS.AssemblyInfoInputs.cache
+c:\Users\KariBv\OneDrive\Documentos\TRABAJOS\TAREA13_ESTRUCTURA_DE_DATOS\obj\Debug\net9.0\TAREA13_ESTRUCTURA_DE_DATOS.AssemblyInfo.cs
+c:\Users\KariBv\OneDrive\Documentos\TRABAJOS\TAREA13_ESTRUCTURA_DE_DATOS\obj\Debug\net9.0\TAREA13_ESTRUCTURA_DE_DATOS.csproj.CoreCompileInputs.cache
+c:\Users\KariBv\OneDrive\Documentos\TRABAJOS\TAREA13_ESTRUCTURA_DE_DATOS\obj\Debug\net9.0\TAREA13_ESTRUCTURA_DE_DATOS.dll
+c:\Users\KariBv\OneDrive\Documentos\TRABAJOS\TAREA13_ESTRUCTURA_DE_DATOS\obj\Debug\net9.0\refint\TAREA13_ESTRUCTURA_DE_DATOS.dll
+c:\Users\KariBv\OneDrive\Documentos\TRABAJOS\TAREA13_ESTRUCTURA_DE_DATOS\obj\Debug\net9.0\TAREA13_ESTRUCTURA_DE_DATOS.pdb
+C:\Users\KariBv\OneDrive\Documentos\TRABAJOS\TAREA13_ESTRUCTURA_DE_DATOS\obj\Debug\net9.0\TAREA13_ESTRUCTURA_DE_DATOS.genruntimeconfig.cache
+C:\Users\KariBv\OneDrive\Documentos\TRABAJOS\TAREA13_ESTRUCTURA_DE_DATOS\obj\Debug\net9.0\ref\TAREA13_ESTRUCTURA_DE_DATOS.dll
