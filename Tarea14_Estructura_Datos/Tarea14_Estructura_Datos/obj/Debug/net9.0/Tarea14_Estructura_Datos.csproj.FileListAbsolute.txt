@@ -1,0 +1,15 @@
+c:\Users\user\Desktop\Tarea14_Estructura_Datos\Tarea14_Estructura_Datos\bin\Debug\net9.0\Tarea14_Estructura_Datos.exe
+c:\Users\user\Desktop\Tarea14_Estructura_Datos\Tarea14_Estructura_Datos\bin\Debug\net9.0\Tarea14_Estructura_Datos.deps.json
+c:\Users\user\Desktop\Tarea14_Estructura_Datos\Tarea14_Estructura_Datos\bin\Debug\net9.0\Tarea14_Estructura_Datos.runtimeconfig.json
+c:\Users\user\Desktop\Tarea14_Estructura_Datos\Tarea14_Estructura_Datos\bin\Debug\net9.0\Tarea14_Estructura_Datos.dll
+c:\Users\user\Desktop\Tarea14_Estructura_Datos\Tarea14_Estructura_Datos\bin\Debug\net9.0\Tarea14_Estructura_Datos.pdb
+c:\Users\user\Desktop\Tarea14_Estructura_Datos\Tarea14_Estructura_Datos\obj\Debug\net9.0\Tarea14_Estructura_Datos.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\user\Desktop\Tarea14_Estructura_Datos\Tarea14_Estructura_Datos\obj\Debug\net9.0\Tarea14_Estructura_Datos.AssemblyInfoInputs.cache
+c:\Users\user\Desktop\Tarea14_Estructura_Datos\Tarea14_Estructura_Datos\obj\Debug\net9.0\Tarea14_Estructura_Datos.AssemblyInfo.cs
+c:\Users\user\Desktop\Tarea14_Estructura_Datos\Tarea14_Estructura_Datos\obj\Debug\net9.0\Tarea14_Estructura_Datos.csproj.CoreCompileInputs.cache
+c:\Users\user\Desktop\Tarea14_Estructura_Datos\Tarea14_Estructura_Datos\obj\Debug\net9.0\Tarea14_Estructura_Datos.sourcelink.json
+c:\Users\user\Desktop\Tarea14_Estructura_Datos\Tarea14_Estructura_Datos\obj\Debug\net9.0\Tarea14_Estructura_Datos.dll
+c:\Users\user\Desktop\Tarea14_Estructura_Datos\Tarea14_Estructura_Datos\obj\Debug\net9.0\refint\Tarea14_Estructura_Datos.dll
+c:\Users\user\Desktop\Tarea14_Estructura_Datos\Tarea14_Estructura_Datos\obj\Debug\net9.0\Tarea14_Estructura_Datos.pdb
+c:\Users\user\Desktop\Tarea14_Estructura_Datos\Tarea14_Estructura_Datos\obj\Debug\net9.0\Tarea14_Estructura_Datos.genruntimeconfig.cache
+c:\Users\user\Desktop\Tarea14_Estructura_Datos\Tarea14_Estructura_Datos\obj\Debug\net9.0\ref\Tarea14_Estructura_Datos.dll
